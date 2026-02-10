@@ -4,3 +4,6 @@ sqlalchemy
 pydantic
 reportlab
 python-multipart
+streamlit
+pandas
+gunicorn
