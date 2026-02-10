@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\sodexo\Laptop Sodexo Sincronizada\OneDrive\Documentos\Sodexo\Laptop Sodexo\Documentos\Nueva carpeta\roperia-system\backend\main.py", line 185, in create_delivery
+    pdf_path = generate_pdf(new_delivery.id, user, items_list, delivery.date)
+  File "C:\Users\sodexo\Laptop Sodexo Sincronizada\OneDrive\Documentos\Sodexo\Laptop Sodexo\Documentos\Nueva carpeta\roperia-system\backend\main.py", line 143, in generate_pdf
+    w, h = table.wrap(width, None)
+           ~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\sodexo\Laptop Sodexo Sincronizada\OneDrive\Documentos\Sodexo\Laptop Sodexo\Documentos\Nueva carpeta\roperia-system\backend\venv\Lib\site-packages\reportlab\platypus\tables.py", line 1354, in wrap
+    self._calc(availWidth, availHeight)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sodexo\Laptop Sodexo Sincronizada\OneDrive\Documentos\Sodexo\Laptop Sodexo\Documentos\Nueva carpeta\roperia-system\backend\venv\Lib\site-packages\reportlab\platypus\tables.py", line 740, in _calc
+    self._calc_height(availHeight,availWidth,W=W)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sodexo\Laptop Sodexo Sincronizada\OneDrive\Documentos\Sodexo\Laptop Sodexo\Documentos\Nueva carpeta\roperia-system\backend\venv\Lib\site-packages\reportlab\platypus\tables.py", line 688, in _calc_height
+    if height > availHeight:
+       ^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'NoneType'
+
+'>' not supported between instances of 'int' and 'NoneType'Checking logo at: C:\Users\sodexo\Laptop Sodexo Sincronizada\OneDrive\Documentos\Sodexo\Laptop Sodexo\Documentos\Nueva carpeta\roperia-system\frontend\public\logo.png
+Exists: True
+Checking logo at: C:\Users\sodexo\Laptop Sodexo Sincronizada\OneDrive\Documentos\Sodexo\Laptop Sodexo\Documentos\Nueva carpeta\roperia-system\frontend\public\logo.png
+Exists: True
